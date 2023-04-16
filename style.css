@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;box-sizing: border-box;
+    color: white;
+    font-size: 16px;
+}
+
+body {
+    background: rgba(9, 14, 22, 1);
+}
+
+ul, li, a {
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.header {
+    background: rgba(123, 74, 226, 0.05);
+    max-width: 1640px;
+    padding: 12px 0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px 25px 0 25px  ;
+}
+
+.logo {
+    padding-left: 24px;
+}
+
+.ul-list {
+    display: flex;
+}
+
+li a {
+    padding: 16 10px;
+    margin: 0 16px;
+}
+
+li a:focus {
+    color: rgba(123, 74, 226, 0.5);
+}
+
+
+.content {
+    background: url(AvatarAndIcons.svg)no-repeat;
+    background-position: center center;
+    background-size: auto;
+    height: 100vh;
+    border-bottom: 5px solid rgba(123, 74, 226, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.conteiner{
+    padding: 150px;
+}
+.conteiner h1 {
+    font-size: 52px;
+}
+.hello {
+    padding: 5px 10px;
+    background: rgba(123, 74, 226, 0.1);
+    border-radius: 4px;
+}
+
+.gray {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.text-whatsap {
+    text-align: end;
+}
+
+.download {
+    color: rgba(123, 74, 226, 0.5);
+    text-align: end;
+    padding: 15px;
+}
+
+.whatsap {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgba(123, 74, 226, 0.5);
+    border-radius: 26px;
+    margin-top: 8px;
+}
